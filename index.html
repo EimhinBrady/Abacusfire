@@ -12,10 +12,11 @@
 
 	<!-- The 1140px Grid - http://cssgrid.net/ -->
 	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
-	
+	<script src="jq.js"> </script>
+	<script src="banner.js"> </script>
 	<!-- Your styles -->
 	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
-	
+	<link rel="stylesheet" href="css/mystyle.css" type="text/css" media="screen" />
 	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 	
@@ -26,7 +27,7 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 	
-	.container p {
+	.container span {
 	color: #fff;
 	line-height: 100px;
 	background: #000;
@@ -43,63 +44,105 @@
 
 <div class="container">
 	<div class="row">
-		<div class="fourcol">
-			<p>blarh</p>
+		<div class="fivecol">
+			<a href="http://www.w3schools.com" target="_blank">Visit W3Schools.com!</a> 
 		</div>
-		<div class="fourcol">
-			<p>iuyguyg</p>
+		<div class="twocol">
+			<img src="logo.png"/> 
 		</div>
-		<div class="fourcol last">
-			<p>igugyygofy</p>
+		<div class="fivecol last">
+			<span>igugyygofy</span>
 		</div>
 	</div>
 </div>
 
-<div class="container">
+<div class="container banner">
 	<div class="row">
 		<div class="twelvecol">
-		<p> fack</p>
+	
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="twocol">
+			<img src="bulb.png">
+		</div>
+		<div class="twocol">
+		<p>About:
+			Abacus is a complete fire safety solution, covering all aspects of fire safety; from equipment to training and much more. We can provide all of our services directly to your door, and offer onsite installation and training for a competitive price.</p>
+
+		</div>
+		<div class="twocol">
+			<img src="fire.png">
+		</div>
+		<div class="twocol">
+			<p>Services:
+We offer a number of great services:
+Fire safety equipment
+Equipment installation
+Fire safety training
+Fire safety assessment</p>
+
+		</div>
+		<div class="twocol">
+			<img src="mail.png">
+		</div>
+		<div class="twocol last">
+		<p>Contact:
+Why not get in touch for a free, no pressure quotation?
+Phone: 0871234567
+Email: info@abacusfire.ie
+You can also find us on Facebook</p>
+			
+		</div>
+		
 		</div>
 	</div>
 </div>
 
 <div class="container">
 	<div class="row">
-		<div class="fourcol">
-			<p>blarh</p>
+		<div class="twocol">
+			<span>blarh</span>
 		</div>
-		<div class="fourcol">
-			<p>iuyguyg</p>
+		<div class="twocol">
+			<span>blarh</span>
 		</div>
-		<div class="fourcol last">
-			<p>igugyygofy</p>
+		<div class="twocol">
+			<span>blarh</span>
 		</div>
-	</div>
-</div>
-
-
-<div class="container">
-	<div class="row">
-		<div class="fourcol">
-			<p>blarh</p>
+		<div class="twocol">
+			<span>blarh</span>
 		</div>
-		<div class="fourcol">
-			<p>iuyguyg</p>
+		<div class="twocol">
+			<span>blarh</span>
 		</div>
-		<div class="fourcol last">
-			<p>igugyygofy</p>
+		<div class="twocol last">
+			<span>hgogp</span>
+		</div>
+		
 		</div>
 	</div>
 </div>
 
-<div class="container">
+<div class="container footer">
 	<div class="row">
 		<div class="twelvecol">
-		<p> iuhf</p>
+		
 		</div>
 	</div>
 </div>
-
+<script>$(".banner").backstretch([
+      "fire.jpg"
+    , "ifex.jpg"
+    , "typelist.jpg"
+  ], {duration: 3000, fade: 750});
+ </script>
 </body>
 
 </html>
